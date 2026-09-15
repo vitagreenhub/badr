@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="فيتا جرين — ميكروجرين طازج يُحصد عند الطلب ويصل لبابك." />
+    <title>Vita Green | ميكروجرين طازج لبابك</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .brand > span:last-child { line-height: 1; }
+      .brand > span:last-child > span { color: #699642; }
+      .brand small { display:block; font-family:var(--sans); font-size:6px; letter-spacing:1.15px; font-weight:600; margin-top:4px; color:#77917c; }
+      .desktop-nav a { display:flex; flex-direction:column; gap:2px; font-size:10px; letter-spacing:.25px; }
+      .desktop-nav a small { font-size:8px; color:#7d847b; font-weight:500; letter-spacing:0; }
+      .subscription-box > p small { display:block; color:#75806f; font-size:8px; letter-spacing:.5px; margin-top:4px; }
+      .product-info .product-en { display:block; direction:ltr; text-align:right; font-size:7px; font-weight:700; letter-spacing:.65px; color:#658b46; margin-bottom:4px; }
+      .product-info h3 + small { display:block; margin-top:-8px; margin-bottom:12px; }
+      .business { display:grid; grid-template-columns:.8fr 1.2fr; gap:60px; align-items:end; padding-top:105px; }
+      .business-intro > p:not(.eyebrow) { font-size:13px; line-height:2; color:var(--muted); max-width:390px; margin:24px 0; }
+      .business-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+      .business-grid article { min-height:270px; background:#e7eedc; padding:24px 18px; position:relative; overflow:hidden; }
+      .business-grid article:nth-child(2) { background:#d8e8bc; }
+      .business-grid article:nth-child(3) { background:#edf0e8; }
+      .business-number { position:absolute; left:16px; top:15px; color:#7d9873; font-size:10px; }
+      .business-grid svg { width:26px; color:#316b47; margin-top:42px; }
+      .business-grid b { display:block; font-size:8px; letter-spacing:.7px; margin-top:23px; color:#577059; }
+      .business-grid h3 { font-family:var(--serif); font-size:23px; font-weight:400; margin:7px 0; }
+      .business-grid p { font-size:10px; line-height:1.8; color:#687268; margin:0; }
+      .business-grid article:after { content:"✦"; position:absolute; left:-21px; bottom:-50px; color:#c3d9a8; font-size:115px; }
+      @media(max-width:800px) { .brand small { font-size:5px; } .business { grid-template-columns:1fr; padding-top:70px; gap:32px; } .business-grid { grid-template-columns:1fr; } .business-grid article { min-height:205px; } .business-grid svg { margin-top:18px; } .desktop-nav a small { display:none; } }
+    </style>
+  </head>
+  <body>
+    <div class="announcement"><span>🌿</span> حصاد اليوم يصل خلال 24 ساعة في القاهرة والجيزة <a href="#shop">تسوّق الآن</a></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Vita Green - Home"><span class="brand-mark">✦</span><span>VITA<span>GREEN</span><small>FRESH MICROGREENS</small></span></a>
+      <nav class="desktop-nav" aria-label="التنقل الرئيسي">
+        <a href="#shop">SHOP <small>المتجر</small></a><a href="#why-us">OUR FARM <small>مزرعتنا</small></a><a href="#subscription">SUBSCRIBE <small>الاشتراكات</small></a><a href="#business">FOR BUSINESS <small>للشركات</small></a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn search-toggle" aria-label="بحث"><i data-lucide="search"></i></button>
+        <button class="icon-btn" id="cartTrigger" aria-label="فتح سلة المشتريات"><i data-lucide="shopping-bag"></i><b class="cart-count">0</b></button>
+        <button class="menu-btn" id="menuTrigger" aria-label="فتح القائمة"><i data-lucide="menu"></i></button>
+      </div>
+    </header>
+
+    <div class="search-panel" id="searchPanel"><i data-lucide="search"></i><input id="searchInput" placeholder="ابحث عن نوع الميكروجرين المفضل لديك..." /><button aria-label="إغلاق البحث" class="close-search"><i data-lucide="x"></i></button></div>
+    <nav class="mobile-nav" id="mobileNav"><a href="#shop">SHOP · المتجر</a><a href="#why-us">OUR FARM · مزرعتنا</a><a href="#subscription">SUBSCRIBE · الاشتراكات</a><a href="#business">FOR BUSINESS · للشركات</a></nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> FRESHLY HARVESTED · يُزرع بحب في مزارعنا المحلية</p>
+          <h1>صِغارٌ في الحجم.<br /><em>كبارٌ في الفائدة.</em></h1>
+          <p class="hero-text">ميكروجرين طازج ومليء بالحياة، نقطفه صباحًا ليصل إلى طبقك بأقصى نكهة وقيمة غذائية.</p>
+          <div class="hero-actions"><a class="button primary" href="#shop">تسوق الحصاد <i data-lucide="arrow-left"></i></a><a class="play-link" href="#why-us"><span><i data-lucide="play"></i></span> قصتنا في 60 ثانية</a></div>
+          <div class="hero-proof"><div class="avatars"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=80" alt="عميلة" /><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt="عميل" /><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80" alt="عميلة" /></div><p><strong>+2,500</strong> أسرة تأكل أخضر كل أسبوع</p></div>
+        </div>
+        <div class="hero-art reveal delay-1">
+          <div class="sun-disc"></div><div class="hero-image-wrap"><img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=85" alt="ميكروجرين طازج في وعاء" /><div class="image-label"><span>100%</span><small>طازج وطبيعي</small></div></div>
+          <div class="floating-card top-card"><i data-lucide="sprout"></i><div><b>نُقطف اليوم</b><small>ويوصل غدًا</small></div></div>
+          <div class="floating-card bottom-card"><span class="mini-leaf">✦</span><div><b>بدون مبيدات</b><small>زراعة نظيفة</small></div></div>
+        </div>
+      </section>
+
+      <section class="trust-strip"><div><i data-lucide="leaf"></i><span>زراعة محلية</span></div><div><i data-lucide="shield-check"></i><span>نظيف وآمن</span></div><div><i data-lucide="truck"></i><span>توصيل مبرد</span></div><div><i data-lucide="heart-handshake"></i><span>ضمان الطزاجة</span></div></section>
+
+      <section class="products section" id="shop">
+        <div class="section-heading reveal"><div><p class="eyebrow"><span></span> من مزرعتنا إلى مطبخك</p><h2>اختَر حصادك <em>اليوم</em></h2></div><a href="#shop" class="text-link" id="showAll">عرض كل المنتجات <i data-lucide="arrow-left"></i></a></div>
+        <div class="filter-row" id="filters"><button class="filter active" data-filter="all">الكل</button><button class="filter" data-filter="popular">الأكثر طلبًا</button><button class="filter" data-filter="spicy">نكهة قوية</button><button class="filter" data-filter="mild">نكهة خفيفة</button><button class="filter" data-filter="aromatic">عطري</button><button class="filter" data-filter="colorful">ملوّن</button></div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="story section" id="why-us">
+        <div class="story-visual reveal"><img src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&w=1100&q=85" alt="مزارع يعتني بالنباتات الصغيرة" /><div class="stamp">من البذرة<br />إلى الطبق <span>✦</span></div></div>
+        <div class="story-copy reveal delay-1"><p class="eyebrow"><span></span> نؤمن بالقليل الذي يصنع فرقًا</p><h2>ليست مجرد<br /><em>أوراق صغيرة.</em></h2><p>الميكروجرين هو بداية حياة النبات، وفيه طاقة مركّزة ونكهات نابضة. نزرعه في بيئة مضبوطة، بدون مبيدات أو اختصارات، ثم نقطفه عند قمة حيويته.</p><div class="metric-grid"><div><b>حتى <strong>40×</strong></b><small>عناصر غذائية أكثر</small></div><div><b><strong>7</strong> أيام</b><small>من البذرة للحصاد</small></div><div><b><strong>0</strong> مبيدات</b><small>على الإطلاق</small></div></div><a class="text-link" href="#journal">اكتشف كيف نزرع <i data-lucide="arrow-left"></i></a></div>
+      </section>
+
+      <section class="subscription section" id="subscription"><div class="subscription-copy reveal"><p class="eyebrow light"><span></span> SUBSCRIBE &amp; SAVE · راحة مستمرة، صحة مستمرة</p><h2>خلّي الخُضرة<br /><em>عادة أسبوعية.</em></h2><p>صندوق مختار بعناية يصل لبابك كل أسبوع. بدّل، أوقف، أو ألغِ في أي وقت.</p><ul><li><i data-lucide="check"></i> خصم 15% على كل طلب</li><li><i data-lucide="check"></i> تخصيص الأصناف حسب ذوقك</li><li><i data-lucide="check"></i> أولوية في حصاد الأسبوع</li></ul><button class="button cream" id="subscriptionBtn">ابدأ اشتراكك <i data-lucide="arrow-left"></i></button></div><div class="subscription-box reveal delay-1"><div class="box-ribbon">BEST VALUE</div><p>صندوق التوازن <small>THE BALANCE BOX</small></p><div class="box-leaves">✦ <span>✦</span> ✦</div><ul><li>4 أصناف موسمية</li><li>يكفي 2–3 أشخاص</li><li>توصيل أسبوعي مجاني</li></ul><div><b>325 ج.م</b><small> / أسبوع</small></div></div></section>
+
+      <section class="business section" id="business"><div class="business-intro reveal"><p class="eyebrow"><span></span> VITA GREEN FOR BUSINESS</p><h2>حصاد استثنائي<br /><em>لأطباق استثنائية.</em></h2><p>من مطبخ المنزل إلى مطعمك وفندقك ومكتبك — نجهّز خطط توريد مرنة تُبنى حول احتياجك ونظام تسليمك.</p><a class="button primary" href="mailto:hello@vitagreen.eg?subject=Vita%20Green%20Business%20Inquiry">تواصل للأعمال <i data-lucide="arrow-left"></i></a></div><div class="business-grid reveal delay-1"><article><span class="business-number">01</span><i data-lucide="utensils"></i><b>RESTAURANTS &amp; CAFÉS</b><h3>توريد للشيف</h3><p>أصناف ثابتة أو حصاد مخصص لقائمة طعامك.</p></article><article><span class="business-number">02</span><i data-lucide="building-2"></i><b>OFFICE WELLNESS</b><h3>خُضرة لمكتبك</h3><p>صناديق أسبوعية صغيرة تمنح فريقك اختيارًا أفضل.</p></article><article><span class="business-number">03</span><i data-lucide="package-open"></i><b>HOME GROW KITS</b><h3>ازرعها بنفسك</h3><p>عدة بداية سهلة للمهتمين بالزراعة المنزلية.</p></article></div></section>
+
+      <section class="journal section" id="journal"><div class="section-heading reveal"><div><p class="eyebrow"><span></span> نكهة ومعرفة</p><h2>الدليل <em>الأخضر</em></h2></div><a href="#journal" class="text-link">كل المقالات <i data-lucide="arrow-left"></i></a></div><div class="article-grid"><article class="article large reveal"><img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1000&q=80" alt="طبق سلطة صحية" /><div><p>وصفات · 5 دقائق</p><h3>3 طرق بسيطة لتضيف الميكروجرين لفطورك</h3><a href="#journal">اقرأ المقال <i data-lucide="arrow-left"></i></a></div></article><article class="article reveal delay-1"><img src="https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=800&q=80" alt="نباتات صغيرة" /><div><p>دليل المبتدئين</p><h3>الفرق بين البراعم والميكروجرين؟</h3><a href="#journal">اقرأ المقال <i data-lucide="arrow-left"></i></a></div></article><article class="article reveal delay-2"><img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80" alt="تحضير الطعام" /><div><p>نصائح الحفظ</p><h3>كيف تحافظ على طزاجة حصادك أطول وقت</h3><a href="#journal">اقرأ المقال <i data-lucide="arrow-left"></i></a></div></article></div></section>
+
+      <section class="newsletter"><div><p class="eyebrow light"><span></span> رسالة من المزرعة</p><h2>خصم 10% لأول<br /><em>حصاد لك.</em></h2></div><form id="newsletterForm"><label for="email">بريدك الإلكتروني</label><div><input id="email" type="email" placeholder="name@email.com" required /><button type="submit" aria-label="اشترك"><i data-lucide="arrow-left"></i></button></div><small>بالاشتراك، توافق على سياسة الخصوصية الخاصة بنا.</small></form></section>
+    </main>
+
+    <footer><div class="footer-main"><a class="brand" href="#top"><span class="brand-mark">✦</span><span>VITA<span>GREEN</span><small>FRESH MICROGREENS</small></span></a><p>Grown for more life in every plate.</p><div class="socials"><a href="#top" aria-label="Instagram"><i data-lucide="instagram"></i></a><a href="#top" aria-label="Facebook"><i data-lucide="facebook"></i></a><a href="#top" aria-label="Youtube"><i data-lucide="youtube"></i></a></div></div><div class="footer-links"><div><b>SHOP · تسوّق</b><a href="#shop">كل المنتجات</a><a href="#subscription">الاشتراكات</a><a href="#shop">صناديق الهدايا</a></div><div><b>VITA GREEN</b><a href="#why-us">قصتنا</a><a href="#journal">الدليل الأخضر</a><a href="#top">الأسئلة الشائعة</a></div><div><b>LET'S TALK</b><a href="mailto:hello@vitagreen.eg">hello@vitagreen.eg</a><a href="tel:+201000000000">+20 100 000 0000</a></div></div><div class="footer-bottom"><span>© 2026 VITA GREEN. ALL RIGHTS RESERVED.</span><span>صُنع بشغف للطبيعة <b>✦</b></span></div></footer>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات"><div class="drawer-header"><h3>سلة حصادك <span class="cart-count">0</span></h3><button class="icon-btn close-cart" aria-label="إغلاق"><i data-lucide="x"></i></button></div><div class="cart-items" id="cartItems"><div class="empty-cart"><i data-lucide="shopping-bag"></i><p>سلتك تنتظر حصادًا طازجًا.</p><a href="#shop" class="button primary close-cart">ابدأ التسوق</a></div></div><div class="cart-footer" id="cartFooter" hidden><div class="cart-total"><span>الإجمالي</span><b id="cartTotal">0 ج.م</b></div><button id="checkoutBtn" class="button primary wide">إتمام الطلب <i data-lucide="arrow-left"></i></button><small><i data-lucide="shield-check"></i> دفع آمن · توصيل مبرد</small></div></aside><div class="overlay" id="overlay"></div>
+
+    <div class="toast" id="toast"><i data-lucide="check-circle-2"></i><span></span></div>
+    <a class="whatsapp" href="https://wa.me/201000000000" target="_blank" rel="noreferrer" aria-label="اطلب عبر واتساب"><i data-lucide="message-circle"></i><span>اطلب عبر واتساب</span></a>
+    <script src="https://unpkg.com/lucide@latest"></script><script src="app.js"></script>
+  </body>
+</html>
