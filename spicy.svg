@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" role="img" aria-label="Spicy microgreens illustration">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3e5d6"/><stop offset="1" stop-color="#df8f84"/></linearGradient></defs>
+  <rect width="800" height="650" fill="url(#bg)"/><ellipse cx="400" cy="595" rx="390" ry="76" fill="#553d31"/>
+  <g fill="none" stroke="#b84e61" stroke-width="14" stroke-linecap="round"><path d="M130 580Q150 330 185 202"/><path d="M235 585Q240 365 306 190"/><path d="M360 585Q350 320 402 160"/><path d="M500 585Q520 345 577 210"/><path d="M650 585Q630 350 698 235"/></g>
+  <g fill="#69954b" stroke="#3f6b43" stroke-width="7"><path d="M185 215Q76 154 90 80Q193 87 222 192Z"/><path d="M185 215Q278 155 302 239Q237 280 179 245Z"/><path d="M306 210Q204 111 254 47Q347 105 333 193Z"/><path d="M306 210Q409 130 444 217Q366 262 300 240Z"/><path d="M402 175Q314 90 366 25Q460 91 438 169Z"/><path d="M402 175Q505 107 537 196Q456 227 396 204Z"/><path d="M577 225Q489 139 540 73Q631 133 609 218Z"/><path d="M577 225Q678 160 707 244Q635 277 570 255Z"/><path d="M698 250Q628 170 674 119Q748 174 726 241Z"/></g>
+  <text x="55" y="75" fill="#713640" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">SPICY HARVEST</text>
+</svg>
