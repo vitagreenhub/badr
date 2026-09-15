@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" role="img" aria-label="Sunflower shoots illustration">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbe8b8"/><stop offset="1" stop-color="#8ab866"/></linearGradient></defs>
+  <rect width="800" height="650" fill="url(#bg)"/><ellipse cx="410" cy="585" rx="370" ry="90" fill="#345d38"/>
+  <g stroke="#4d7940" stroke-width="18" stroke-linecap="round"><path d="M180 570Q170 365 250 225"/><path d="M300 585Q290 340 390 185"/><path d="M460 585Q500 330 580 210"/><path d="M620 585Q630 375 690 285"/></g>
+  <g fill="#d8ef8a" stroke="#6a954f" stroke-width="8"><path d="M250 265Q116 188 155 86Q275 100 278 234Z"/><path d="M250 265Q375 185 398 297Q304 334 246 290Z"/><path d="M390 225Q288 126 342 42Q450 100 428 205Z"/><path d="M390 225Q522 141 548 243Q456 294 391 254Z"/><path d="M580 242Q481 134 542 63Q641 130 620 220Z"/><path d="M580 242Q711 172 735 282Q637 315 575 270Z"/><path d="M690 305Q614 222 671 160Q754 221 730 292Z"/></g>
+  <text x="55" y="75" fill="#234a31" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">SUNFLOWER SHOOTS</text>
+</svg>
