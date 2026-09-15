@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" role="img" aria-label="Purple microgreens illustration">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0dfed"/><stop offset="1" stop-color="#a575a5"/></linearGradient></defs>
+  <rect width="800" height="650" fill="url(#bg)"/><ellipse cx="400" cy="590" rx="390" ry="80" fill="#4c3a52"/>
+  <g stroke="#8d4a80" stroke-width="14" stroke-linecap="round"><path d="M115 585Q140 340 175 210"/><path d="M220 585Q245 335 295 170"/><path d="M340 585Q350 300 405 145"/><path d="M470 585Q480 315 540 175"/><path d="M600 585Q620 350 690 210"/></g>
+  <g fill="#7d416d" stroke="#5b365f" stroke-width="7"><path d="M174 223Q78 150 119 73Q217 97 206 196Z"/><path d="M174 223Q273 153 303 239Q226 269 169 253Z"/><path d="M295 180Q198 102 237 40Q335 81 324 169Z"/><path d="M295 180Q390 116 425 197Q354 231 291 210Z"/><path d="M405 155Q316 70 364 22Q452 72 432 148Z"/><path d="M405 155Q505 85 538 168Q462 205 401 185Z"/><path d="M540 180Q444 105 489 46Q578 91 561 173Z"/><path d="M540 180Q636 119 671 199Q596 235 534 209Z"/><path d="M690 220Q612 150 657 94Q734 151 713 212Z"/></g>
+  <text x="55" y="75" fill="#60385d" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">PURPLE &amp; VIBRANT</text>
+</svg>
