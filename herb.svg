@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" role="img" aria-label="Aromatic herbs illustration">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2ecd5"/><stop offset="1" stop-color="#b5cb86"/></linearGradient></defs>
+  <rect width="800" height="650" fill="url(#bg)"/><ellipse cx="400" cy="595" rx="390" ry="75" fill="#3f633f"/>
+  <g stroke="#447342" stroke-width="13" stroke-linecap="round"><path d="M130 585Q168 340 182 180"/><path d="M250 585Q265 300 295 130"/><path d="M385 585Q400 350 420 155"/><path d="M520 585Q530 310 565 135"/><path d="M650 585Q650 350 700 190"/></g>
+  <g fill="#84b559" stroke="#467345" stroke-width="6"><ellipse cx="160" cy="280" rx="29" ry="68" transform="rotate(-25 160 280)"/><ellipse cx="204" cy="206" rx="28" ry="66" transform="rotate(30 204 206)"/><ellipse cx="267" cy="245" rx="30" ry="73" transform="rotate(-20 267 245)"/><ellipse cx="320" cy="160" rx="27" ry="64" transform="rotate(30 320 160)"/><ellipse cx="390" cy="270" rx="29" ry="70" transform="rotate(-25 390 270)"/><ellipse cx="442" cy="185" rx="28" ry="66" transform="rotate(25 442 185)"/><ellipse cx="540" cy="240" rx="28" ry="69" transform="rotate(-24 540 240)"/><ellipse cx="590" cy="165" rx="27" ry="64" transform="rotate(24 590 165)"/><ellipse cx="677" cy="275" rx="29" ry="70" transform="rotate(-24 677 275)"/></g>
+  <text x="55" y="75" fill="#486344" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">AROMATIC HERBS</text>
+</svg>
